@@ -1,0 +1,176 @@
+@media (min-width:500px) {
+    section header{
+        width: 100%;
+        height: 232px;
+        border: 2px solid black;
+    }
+    .navbar{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        background-color: black;
+    }
+    .logo{
+        margin-top: 20px;
+        width: 122px;
+        height: 62px;
+    }
+    .bar{
+        margin-top: 30px;
+        width: 400px;
+        height: 50px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .login_sign{
+        margin-top: 45px;
+        width: 200px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sign up{
+        width: 100px;
+        height:40px ;
+    }
+   
+    .ABOUT{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .opinion{
+        width: 100%;
+        /* background-color: aqua; */
+        height: 200px;
+        background-color: whitesmoke;
+    }
+    .opinion12{
+        width: 100%;
+        /* background-color: aqua; */
+        height: 200px;
+        background-color: aliceblue;
+
+    }
+    .resultat{
+        width: 70%;
+        height: 200px;
+        /* background-color: bisque; */
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .resultat123{
+        width: 100%;
+        height: 200px;
+        /* background-color: bisque; */
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .opinion1{
+        width: 210px;
+        height: 150px;
+        border: 2px solid black;
+    }
+    .opinion2{
+        width: 210px;
+        height: 150px;
+        border: 2px solid black;
+    }
+    .opinion3{
+        width: 210px;
+        height: 150px;
+        border: 2px solid black;
+    }
+    .title{
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        height: 70px;
+        background-color: black;
+        border-radius: 10px;
+    }
+}
+/* ####################################################################################### */
+/* ####################################################################################### */
+/* ####################################################################################### */
+/* ####################################################################################### */
+@media (min-width:10px) and (max-width:500px){
+    
+    section.header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        grid-template-columns: 100%;
+        /* border: 2px solid black; */
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+    .navbar{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+        
+    }
+
+    .logo{
+        margin-top:-140px;
+        width: 45px;
+        height: 40px;
+
+    }
+    .bar{
+        /* margin-top: 30px;
+        width: 400px;
+        height: 50px; */
+        margin-top: 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    
+    
+    .login_sign{
+        margin-top: -280px;
+        width: 200px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 130px;
+       
+    }
+    
+    .sign up{
+        width:110px ;
+        height:50px ;
+        border-radius: 30px;
+        border: 2px solid black;
+        text-align: center;
+        background-color: white;
+    
+    }
+  
+  
+
+   
+}
+
+
